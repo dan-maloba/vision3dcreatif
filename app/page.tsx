@@ -336,6 +336,14 @@ export default function Vision3DCreatif() {
           <br />
           Something Unreal
         </h2>
+        <a
+  href="https://www.instagram.com/vision_3dcreatif?igsh=MXJnZjFseTNhZ2R5aw%3D%3D&utm_source=qr"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-4 py-2 border border-orange-500 rounded-lg hover:bg-orange-500 transition"
+>
+  Follow on Instagram
+</a>
 
         <p className="text-zinc-400 text-lg max-w-2xl mx-auto mb-12">
           Available for collaborations, commissions, cinematic projects and 3D
