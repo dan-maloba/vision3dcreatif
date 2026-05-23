@@ -347,9 +347,14 @@ export default function Vision3DCreatif() {
             Contact Me
           </button>
 
-          <button className="px-8 py-4 border border-white/10 hover:border-cyan-400 rounded-2xl transition text-lg">
-            Instagram
-          </button>
+          <a
+  href="https://www.instagram.com/vision_3dcreatif?igsh=MXJnZjFseTNhZ2R5aw%3D%3D&utm_source=qr"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-4 border border-white/10 hover:border-cyan-400 rounded-2xl transition"
+>
+  Instagram
+</a>
         </div>
       </section>
 
