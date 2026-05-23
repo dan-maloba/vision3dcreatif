@@ -336,11 +336,11 @@ export default function Vision3DCreatif() {
           <br />
           Something Unreal
         </h2>
-        <a
+      <a
   href="https://www.instagram.com/vision_3dcreatif?igsh=MXJnZjFseTNhZ2R5aw%3D%3D&utm_source=qr"
   target="_blank"
   rel="noopener noreferrer"
-  className="px-4 py-2 border border-orange-500 rounded-lg hover:bg-orange-500 transition"
+  className="inline-block px-6 py-3 border border-cyan-400 rounded-lg hover:bg-cyan-400 hover:text-black transition duration-300"
 >
   Follow on Instagram
 </a>
