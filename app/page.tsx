@@ -113,11 +113,12 @@ export default function Vision3DCreatif() {
       <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-black/40 border-b border-white/10">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
           <div>
+           <div>
   <a href="#home" className="flex items-center gap-3">
     <img
-      src="/logo/photo_2026-05-20_15-48-28.jpg"
+      src="/logo/vision3d-logo.png"
       alt="Vision3D Creatif"
-      className="w-10 h-10 rounded-full hover:scale-110 transition duration-300"
+      className="h-12 w-auto hover:scale-110 transition duration-300"
     />
 
     <h1 className="text-2xl font-bold tracking-[0.3em] uppercase">
@@ -127,7 +128,7 @@ export default function Vision3DCreatif() {
 </div>
 
           <div className="hidden md:flex gap-8 text-sm uppercase tracking-widest text-zinc-300">
-            <a href="#portfolio" className="hover:text-cyan-400 transition">
+            <a href="/portfolio" className="hover:text-cyan-400 transition">
               Portfolio
             </a>
             <a href="#shop" className="hover:text-cyan-400 transition">
@@ -136,7 +137,7 @@ export default function Vision3DCreatif() {
             <a href="#about" className="hover:text-cyan-400 transition">
               About
             </a>
-            <a href="#contact" className="hover:text-cyan-400 transition">
+            <a href="/contact" className="hover:text-cyan-400 transition">
               Contact
             </a>
           </div>
@@ -147,7 +148,7 @@ export default function Vision3DCreatif() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 flex items-center justify-center opacity-10">
   <img
-    src="/logo/logo.png"
+    src="/logo/vision 3d logo.png"
     alt="Vision3D Logo"
     className="w-[600px] blur-sm"
   />
@@ -212,86 +213,6 @@ export default function Vision3DCreatif() {
                   className="h-96 w-full object-cover group-hover:scale-110 transition duration-700"
                 />
               </div>
-              export default function PortfolioPage() {
-  return (
-    <main className="min-h-screen bg-black text-white px-8 py-24">
-      <div className="max-w-7xl mx-auto">
-        <h1 className="text-6xl md:text-8xl font-black uppercase mb-6">
-          Portfolio
-        </h1>
-
-        <p className="text-white/60 text-lg mb-16">
-          Explore my collection of 3D artwork, environments,
-          animations and product visualizations.
-        </p>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-          <a
-            href="/portfolio/environments"
-            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
-          >
-            <h2 className="text-3xl font-bold mb-3">
-              Environments
-            </h2>
-            <p className="text-white/60">
-              Worlds, cities, landscapes and cinematic scenes.
-            </p>
-          </a>
-
-          <a
-            href="/portfolio/vehicles"
-            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
-          >
-            <h2 className="text-3xl font-bold mb-3">
-              Vehicles
-            </h2>
-            <p className="text-white/60">
-              Cars, aircraft and futuristic transportation.
-            </p>
-          </a>
-
-          <a
-            href="/portfolio/characters"
-            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
-          >
-            <h2 className="text-3xl font-bold mb-3">
-              Characters
-            </h2>
-            <p className="text-white/60">
-              Stylized and realistic character creations.
-            </p>
-          </a>
-
-          <a
-            href="/portfolio/animations"
-            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
-          >
-            <h2 className="text-3xl font-bold mb-3">
-              Animations
-            </h2>
-            <p className="text-white/60">
-              Motion graphics and cinematic sequences.
-            </p>
-          </a>
-
-          <a
-            href="/portfolio/product-renders"
-            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
-          >
-            <h2 className="text-3xl font-bold mb-3">
-              Product Renders
-            </h2>
-            <p className="text-white/60">
-              Commercial and product visualization work.
-            </p>
-          </a>
-
-        </div>
-      </div>
-    </main>
-  );
-}
 
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90" />
 
