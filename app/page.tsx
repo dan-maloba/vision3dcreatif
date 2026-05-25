@@ -166,7 +166,7 @@ export default function Vision3DCreatif() {
             Blender 3D Artist 
           </div>
 
-          <h1 className="text-5xl md:text-8xl font-black leading-none uppercase tracking-tight">
+          <h1 className="text-5xl md:text-8xl font-black leading-none uppercase tracking-tight animate-pulse">
             Vision3D
             <br />
             Creatif
