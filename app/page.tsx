@@ -113,10 +113,18 @@ export default function Vision3DCreatif() {
       <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-black/40 border-b border-white/10">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
           <div>
-            <h1 className="text-2xl font-bold tracking-[0.3em] uppercase">
-              Vision3D Creatif
-            </h1>
-          </div>
+  <a href="#home" className="flex items-center gap-3">
+    <img
+      src="/logo/photo_2026-05-20_15-48-28.jpg"
+      alt="Vision3D Creatif"
+      className="w-10 h-10 rounded-full hover:scale-110 transition duration-300"
+    />
+
+    <h1 className="text-2xl font-bold tracking-[0.3em] uppercase">
+      Vision3D Creatif
+    </h1>
+  </a>
+</div>
 
           <div className="hidden md:flex gap-8 text-sm uppercase tracking-widest text-zinc-300">
             <a href="#portfolio" className="hover:text-cyan-400 transition">
