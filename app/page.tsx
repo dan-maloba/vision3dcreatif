@@ -212,6 +212,86 @@ export default function Vision3DCreatif() {
                   className="h-96 w-full object-cover group-hover:scale-110 transition duration-700"
                 />
               </div>
+              export default function PortfolioPage() {
+  return (
+    <main className="min-h-screen bg-black text-white px-8 py-24">
+      <div className="max-w-7xl mx-auto">
+        <h1 className="text-6xl md:text-8xl font-black uppercase mb-6">
+          Portfolio
+        </h1>
+
+        <p className="text-white/60 text-lg mb-16">
+          Explore my collection of 3D artwork, environments,
+          animations and product visualizations.
+        </p>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <a
+            href="/portfolio/environments"
+            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
+          >
+            <h2 className="text-3xl font-bold mb-3">
+              Environments
+            </h2>
+            <p className="text-white/60">
+              Worlds, cities, landscapes and cinematic scenes.
+            </p>
+          </a>
+
+          <a
+            href="/portfolio/vehicles"
+            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
+          >
+            <h2 className="text-3xl font-bold mb-3">
+              Vehicles
+            </h2>
+            <p className="text-white/60">
+              Cars, aircraft and futuristic transportation.
+            </p>
+          </a>
+
+          <a
+            href="/portfolio/characters"
+            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
+          >
+            <h2 className="text-3xl font-bold mb-3">
+              Characters
+            </h2>
+            <p className="text-white/60">
+              Stylized and realistic character creations.
+            </p>
+          </a>
+
+          <a
+            href="/portfolio/animations"
+            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
+          >
+            <h2 className="text-3xl font-bold mb-3">
+              Animations
+            </h2>
+            <p className="text-white/60">
+              Motion graphics and cinematic sequences.
+            </p>
+          </a>
+
+          <a
+            href="/portfolio/product-renders"
+            className="border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:scale-105 transition duration-300"
+          >
+            <h2 className="text-3xl font-bold mb-3">
+              Product Renders
+            </h2>
+            <p className="text-white/60">
+              Commercial and product visualization work.
+            </p>
+          </a>
+
+        </div>
+      </div>
+    </main>
+  );
+}
 
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90" />
 
