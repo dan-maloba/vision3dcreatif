@@ -121,7 +121,19 @@ export default function Vision3DCreatif() {
       className="h-12 w-auto hover:scale-110 transition duration-300"
     />
 
+    <div>
+  <a href="#home" className="flex items-center gap-3">
+    <img
+      src="/logo/photo_2026-05-20_15-48-28.jpg"
+      alt="Vision3D Creatif"
+      className="w-10 h-10 rounded-full hover:scale-110 transition duration-300"
+    />
+
     <h1 className="text-2xl font-bold tracking-[0.3em] uppercase">
+      Vision3D Creatif
+    </h1>
+  </a>
+</div>
       Vision3D Creatif
     </h1>
   </a>
